@@ -5,7 +5,7 @@ how to use:
 
 1. convert mp4 to mp3
 ```python
-from pdg-mp3-converter import converter
+from pdg_mp3_converter import converter
 
 filepath = 'path to mp4 file'
 filename = 'name of the file'
@@ -16,7 +16,7 @@ converter.mp4ToMp3(path=filepath, name=filename)
 
 2. convert mp3 (must have been mp4 before) back to mp4
 ```python
-from pdg-mp3-converter import converter
+from pdg_mp3_converter import converter
 
 filepath = 'path to mp3 file'
 filename = 'name of the file'
